@@ -1,13 +1,33 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    background: #faf8ef;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-hr{
-    width: 500px;
+h1 {
+    font-size: 80px;
+    margin: 0;
+    color: #776e65;
 }
 
-#board{
+h2 {
+    font-size: 25px;
+    margin: 0.5rem 0 1.3rem 0 ;
+    font-weight: bold;
+    color: #776e65;
+}
+
+p{
+    margin-top: 2rem;
+    color: #776e65;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#board {
     width: 400px;
     height: 400px;
     background-color: #cdc1b5;
@@ -18,7 +38,7 @@ hr{
     flex-wrap: wrap;
 }
 
-.tile{
+.tile {
     width: 90px;
     height: 90px;
     border: 5px solid #bbada0;
@@ -47,42 +67,42 @@ hr{
     color: white;
 }
 
-.x16{
+.x16 {
     background-color: #f59575;
     color: white;
 }
 
-.x32{
+.x32 {
     background-color: #f57c5f;
     color: white;
 }
 
-.x64{
+.x64 {
     background-color: #f65d3b;
     color: white;
 }
 
-.x128{
+.x128 {
     background-color: #edce71;
     color: white;
 }
 
-.x256{
+.x256 {
     background-color: #edcc63;
     color: white;
 }
 
-.x512{
+.x512 {
     background-color: #edc651;
     color: white;
 }
 
-.x1024{
+.x1024 {
     background-color: #eec744;
     color: white;
 }
 
-.x2048{
+.x2048 {
     background-color: #ecc230;
     color: white;
 }
